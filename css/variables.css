@@ -1,0 +1,12 @@
+:root {
+  --primary: #fff;
+  --secondry: orange;
+  --dark: #001b2f;
+  --light: #fff;
+  --display_light: #fafafa;
+  --display_dark: #00223a;
+  --bg-actions: #045691;
+  --size_icons: 24px;
+
+  --transition: all 0.3 ease-in-out;
+}

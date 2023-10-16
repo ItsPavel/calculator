@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fonts/calculator_icons/style.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>MyCalc</title>
+  </head>
+  <body>
+    <div class="calculator calculator_dark">
+      <div class="calculator__display">
+        <div class="calculator__history"></div>
+        <div class="calculator__total">0</div>
+      </div>
+      <div class="calculator__button">
+        <div class="calculator__row">
+          <button
+            class="calculator__col calculator__col_reset"
+            data-type="clear"
+          >
+            AC
+          </button>
+          <button class="calculator__col calculator__col_actions" data-type="%">
+            %
+          </button>
+          <button
+            class="calculator__col calculator__col_actions"
+            data-type="delete"
+          >
+            C
+          </button>
+          <button class="calculator__col calculator__col_actions" data-type="/">
+            /
+          </button>
+        </div>
+        <div class="calculator__row">
+          <button class="calculator__col" data-type="7">7</button>
+          <button class="calculator__col" data-type="8">8</button>
+          <button class="calculator__col" data-type="9">9</button>
+          <button class="calculator__col calculator__col_actions" data-type="*">
+            *
+          </button>
+        </div>
+        <div class="calculator__row">
+          <button class="calculator__col" data-type="4">4</button>
+          <button class="calculator__col" data-type="5">5</button>
+          <button class="calculator__col" data-type="6">6</button>
+          <button class="calculator__col calculator__col_actions" data-type="-">
+            -
+          </button>
+        </div>
+        <div class="calculator__row">
+          <button class="calculator__col" data-type="1">1</button>
+          <button class="calculator__col" data-type="2">2</button>
+          <button class="calculator__col" data-type="3">3</button>
+          <button class="calculator__col calculator__col_actions" data-type="+">
+            +
+          </button>
+        </div>
+        <div class="calculator__row">
+          <button
+            class="calculator__col calculator__col_actions"
+            data-type="dot"
+          >
+            .
+          </button>
+          <button class="calculator__col" data-type="0">0</button>
+          <button
+            class="calculator__col calculator__col_actions"
+            data-type="history"
+            title="history"
+          >
+            History
+          </button>
+          <button class="calculator__col calculator__col_actions" data-type="=">
+            =
+          </button>
+        </div>
+      </div>
+      <div class="theme">
+        <i class="calc_sun"></i>
+        <i class="calc_moon"></i>
+      </div>
+      <div class="calculator__history-panel">
+        <div class="calculator__history-content"></div>
+        <div class="calculator__history-close">X</div>
+      </div>
+    </div>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
